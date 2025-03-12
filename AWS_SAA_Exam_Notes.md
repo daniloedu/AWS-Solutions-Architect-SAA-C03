@@ -9,9 +9,9 @@
     - A CNAME record can redirect DNS queries to any DNS record. So, you can create a CNAME record that redirects queries from [app.covid19survey.com](http://app.covid19survey.com/) to [app.covid19survey.net](http://app.covid19survey.net/).
 - Route 53 and On premises DNS:
     
-    ![Resolver-outbound-endpoint.png](Facts%20to%20remember%20from%20failed%20tests%2018533216076580479d3fccd63d2712b5/Resolver-outbound-endpoint.png)
+    ![Resolver-outbound-endpoint.png](images/Resolver-outbound-endpoint.png)
     
-    ![Resolver-inbound-endpoint.png](Facts%20to%20remember%20from%20failed%20tests%2018533216076580479d3fccd63d2712b5/Resolver-inbound-endpoint.png)
+    ![Resolver-inbound-endpoint.png](images/Resolver-inbound-endpoint.png)
     
 - All Amazon‐specific request headers begin with x-amz. This is important to remember as it will help eliminate lots of incorrect answers. This leaves only x-amz-mfa.
 
@@ -19,7 +19,7 @@
 
 - Storage class analysis only provides recommendations for Standard to Standard IA classes.
 
-![lifecycle-transitions-v4.png](Facts%20to%20remember%20from%20failed%20tests%2018533216076580479d3fccd63d2712b5/lifecycle-transitions-v4.png)
+![lifecycle-transitions-v4.png](images/lifecycle-transitions-v4.png)
 
 - AWS does not provide automatic recommendations for S3 ONEZONE_IA or Glacier storage classes due to data durability and archival considerations. You must manually configure Lifecycle Policies to transition data to these classes.
 - For S3 Standard-IA. The minimum storage duration charge is 30 days, so this option is NOT cost-effective for less than a month.
@@ -218,7 +218,7 @@
 - Athena can’t be used in real-time.
 - Recovery Options
     
-    ![pt3-q24-i1.jpg](Facts%20to%20remember%20from%20failed%20tests%2018533216076580479d3fccd63d2712b5/pt3-q24-i1.jpg)
+    ![pt3-q24-i1.jpg](images/pt3-q24-i1.jpg)
     
 - AWS CloudFormation StackSet extends the functionality of stacks by enabling you to create, update, or delete stacks across multiple accounts and regions with a single operation. A stack set lets you create stacks in AWS accounts across regions by using a single AWS CloudFormation template
 - Cognito Pools:
@@ -253,7 +253,7 @@
 - ElastiCache uses shards as a grouping mechanism for individual REDIS nodes. So a single node is part of a shard, which in turn is part of a cluster
 - Amazon ElistiCache requires changes in the application code to be implemented. A read replica doesn’t require changes in the code.
     
-    ![pt5-q16-i2.jpg](Facts%20to%20remember%20from%20failed%20tests%2018533216076580479d3fccd63d2712b5/pt5-q16-i2.jpg)
+    ![pt5-q16-i2.jpg](images/pt5-q16-i2.jpg)
     
 
 - A simple routing policy allows single and multiple resources for both the primary and secondary resources
@@ -334,7 +334,7 @@
 - Tags can take up to 24 hours to appear and they can’t be applied to legacy resources. You’re actually allowed only two free budgets per account. Cost allocation tags are managed from the Cost Allocation Tags page.
 - Snowball versions
     
-    ![pt3-q56-i1.jpg](Facts%20to%20remember%20from%20failed%20tests%2018533216076580479d3fccd63d2712b5/pt3-q56-i1.jpg)
+    ![pt3-q56-i1.jpg](images/pt3-q56-i1.jpg)
     
 
 ## Security
