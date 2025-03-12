@@ -22,11 +22,12 @@ These notes are intended as supplementary study material and are based on person
 
 ## Useful Resources
 
-- [AWS Certified Solutions Architect – Associate Official Page](https://aws.amazon.com/certification/certified-solutions-architect-associate/)
-- [AWS Documentation](https://docs.aws.amazon.com/)
-- [AWS FAQs](https://aws.amazon.com/faqs/)
-- [Adrian Cantrill Training](https://learn.cantrill.io)
-- [Stephane Maarek Practice Test](https://www.udemy.com/course/practice-exams-aws-certified-solutions-architect-associate/)
+- <a href="https://aws.amazon.com/certification/certified-solutions-architect-associate/" target="_blank">AWS Certified Solutions Architect – Associate Official Page</a>
+- <a href="https://docs.aws.amazon.com/" target="_blank"> AWS Documentation </a>
+- <a href="https://aws.amazon.com/faqs/" target="_blank"> AWS FAQs </a>
+- <a href="https://learn.cantrill.io/" target="_blank"> Adrian Cantrill Training </a>
+- <a href="https://www.udemy.com/course/practice-exams-aws-certified-solutions-architect-associate" target="_blank">Stephane Maarek Practice Test</a>
+
 
 
 Good luck with your exam!
